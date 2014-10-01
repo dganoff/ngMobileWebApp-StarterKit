@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.scroll-container {
+	position: absolute;
+	top: $header-height;
+	bottom: $footer-height;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.sub-page {
+	position: absolute;
+}

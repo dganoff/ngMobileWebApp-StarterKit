@@ -1,0 +1,34 @@
+.ng-enter {z-index:101;}
+.ng-leave {z-index:100;}
+
+.page-fade {
+	&.ng-enter {
+		animation: fadeIn 500ms ease;
+	}
+}
+
+.page-slide {
+	&.ng-enter {
+		animation: slideIn 500ms ease;
+	}
+}
+
+.page-zoom {
+	&.ng-enter {
+		animation: zoomIn 300ms ease;
+	}
+
+	&.ng-leave {
+		animation: zoomOut 300ms ease;
+	}
+}
+
+.sub-page {
+	&.ng-enter {
+		animation: slideIn 300ms ease;
+	}
+
+	&.ng-leave {
+		animation: slideOut 300ms ease;
+	}
+}
