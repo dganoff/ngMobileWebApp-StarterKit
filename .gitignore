@@ -47,3 +47,5 @@ Temporary Items
 dist
 node_modules
 .sass-cache
+.grunt
+_SpecRunner.html
